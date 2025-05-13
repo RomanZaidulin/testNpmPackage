@@ -2,7 +2,8 @@
   "name": "lk_modum_lib",
   "version": "1.0.0",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "prepare": "npm run build"
   },
   "author": "Roman Zaidulin",
   "license": "ISC",
