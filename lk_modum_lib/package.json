@@ -1,0 +1,27 @@
+{
+  "name": "lk_modum_lib",
+  "version": "1.0.0",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Roman Zaidulin",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^19.1.4",
+    "react": "^19.1.0",
+    "rollup": "^4.40.2",
+    "rollup-plugin-dts": "^6.2.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
