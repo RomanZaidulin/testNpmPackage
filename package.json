@@ -18,15 +18,10 @@
     "tslib": "^2.8.1",
     "typescript": "^5.8.3"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "files": [
     "dist"
   ],
-  "overrides": {
-    "react-scripts": {
-      "typescript": "^5"
-    }
-  },
   "types": "dist/index.d.ts"
 }
