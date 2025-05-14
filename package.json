@@ -2,8 +2,8 @@
   "name": "lk_modum_lib",
   "version": "1.0.0",
   "scripts": {
-    "rollup": "rollup -c",
-    "prepare": "npm run build"
+    "build": "rollup -c",
+    "postinstall": "npm run build"
   },
   "author": "Roman Zaidulin",
   "license": "ISC",
@@ -24,5 +24,10 @@
   "files": [
     "dist"
   ],
+  "overrides": {
+    "react-scripts": {
+      "typescript": "^5"
+    }
+  },
   "types": "dist/index.d.ts"
 }
